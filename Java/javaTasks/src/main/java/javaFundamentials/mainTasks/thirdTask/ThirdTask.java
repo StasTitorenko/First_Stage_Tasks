@@ -12,13 +12,14 @@ public class ThirdTask {
         int itemsNumber = input.nextInt();
         input.close();
         int randomItem;
-        for(int i=0;i<itemsNumber;i++){
-            randomItem=(int) (Math.random()*10);
-            if (randomItem % 2 ==0)
-                System.out.print(randomItem+".");
-            else
-                System.out.println(randomItem+".");
+        for(int i = 0; i < itemsNumber; i++){
+            randomItem = (int)(Math.random()*10);
+            if (randomItem % 2 == 0) {
+                System.out.print(randomItem + ".");
+            }
+            else {
+                System.out.println(randomItem + ".");
+            }
         }
-
     }
 }
