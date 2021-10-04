@@ -1,4 +1,4 @@
 # First_Stage_Tasks
 Completed task's of the first stage Automated testing
-Проект по 1 этапу курса "Automated Testing"
-Последовательное выполнение заданий: https://github.com/StasTitorenko/Epam_automated_testing
+ГЏГ°Г®ГҐГЄГІ ГЇГ® 1 ГЅГІГ ГЇГі ГЄГіГ°Г±Г  "Automated Testing"
+РџРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕРµ РІС‹РїРѕР»РЅРµРЅРёРµ Р·Р°РґР°РЅРёР№: https://github.com/StasTitorenko/Epam_automated_testing
