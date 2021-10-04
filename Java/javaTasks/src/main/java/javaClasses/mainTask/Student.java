@@ -40,6 +40,17 @@ public class Student {
         this.course = course;
         this.group = group;
     }
+    public Student(int id, String surname, String name, LocalDate dateOfBirth, String address, String phoneNumber, String faculty, int course, String group) {
+        this.id = id;
+        this.surname = surname;
+        this.name = name;
+        this.dateOfBirth = dateOfBirth;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+        this.faculty = faculty;
+        this.course = course;
+        this.group = group;
+    }
 
     public int getId() {
         return id;
