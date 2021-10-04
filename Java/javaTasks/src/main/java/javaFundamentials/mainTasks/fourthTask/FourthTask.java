@@ -11,16 +11,16 @@ public class FourthTask {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of items you want to enter:");
         int itemNumber = input.nextInt();
-        int sum=0;
-        int multiplication=1;
+        int sum = 0;
+        int multiplication = 1;
         int temp; //temporary variable to read input
-        for(int i=0;i<itemNumber;i++){
-            System.out.print("Enter "+(i+1)+" item:");
+        for(int i = 0; i < itemNumber; i++){
+            System.out.print("Enter " + (i + 1) + " item:");
             temp = input.nextInt();
-            sum+=temp;
-            multiplication*=temp;
+            sum += temp;
+            multiplication *= temp;
         }
-        System.out.println("Sum="+sum);
-        System.out.println("Multiplication="+multiplication);
+        System.out.println("Sum=" + sum);
+        System.out.println("Multiplication=" + multiplication);
     }
 }
