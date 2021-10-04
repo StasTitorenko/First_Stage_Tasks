@@ -10,7 +10,7 @@ public class FirstTask {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Your name pls:");
         String personName = input.nextLine();
-        System.out.println(personName + " You are welcome!!!");
+        System.out.println(personName.replaceAll("[^A-z]+", "") + " You are welcome!!!");
         input.close();
     }
 }
