@@ -11,7 +11,7 @@ public class FifthTask {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter number of month:");
         int monthNumber = input.nextInt();
-        if (monthNumber>0 && monthNumber<13) {
+        if (monthNumber > 0 && monthNumber < 13) {
             switch (monthNumber) {
                 case 1:
                     System.out.println("January");
@@ -53,7 +53,5 @@ public class FifthTask {
         }
         else
             System.out.println("Wrong number");
-
-
     }
 }
