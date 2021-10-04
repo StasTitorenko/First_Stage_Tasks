@@ -11,6 +11,6 @@ public class SecondTask {
         System.out.print("Enter arguments:");
         String arguments = input.nextLine();
         input.close();
-        System.out.println(new StringBuilder(arguments).reverse().toString());
+        System.out.println(new StringBuilder(arguments).reverse());
     }
 }
