@@ -1,6 +1,5 @@
 package javaFundamentials.mainTasks.secondTask;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class SecondTask {
