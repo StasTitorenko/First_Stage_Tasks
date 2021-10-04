@@ -14,7 +14,7 @@ public class SecondTask {
             input.close();
             System.out.println(new StringBuilder(String.valueOf(arguments)).reverse());
         }
-        catch (Exception E) {
+        catch (Exception e) {
             System.out.println("It's not a  whole number");
         }
     }
